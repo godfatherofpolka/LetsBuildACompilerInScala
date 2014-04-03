@@ -1,5 +1,9 @@
 // to compile: fsc AbstractSyntax.scala Compiler.scala Main.scala Parser.scala ProgramParser.scala
 
+// based on http://alephnullplex.appspot.com/blog/view/2010/02/24/lbach-7-parser-combinators
+// and http://www.codecommit.com/blog/scala/the-magic-behind-parser-combinators
+// and https://github.com/alephnullplex/cradle/tree/master/src/Cradle
+
 object Main {
   def main(args: Array[String]) {
     if (args.size != 0) {
