@@ -3,7 +3,9 @@ object TrivialCompiler extends Compiler {
 
   def indent = "  " * indentLevel
 
-  override def programHeader = "program\n"
+  def programHeader = "program\n"
+
+  def compileProgram(block : Block) = programHeader + compile(block)
 
   def compileBlock(statements : List[Statement]) = {
     indentLevel += 1

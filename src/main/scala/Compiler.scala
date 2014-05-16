@@ -14,9 +14,7 @@ trait Compiler {
     case other => throw new CompilerException("Can not compile " + other)
   }
   
-  def programHeader = ""
-  def programFooter = ""
-  def compileProgram(block : Block) = programHeader + compile(block) + programFooter
+  def compileProgram(block : Block) : String
   def compileBlock(statements : List[Statement]) : String
   def compileStatement(statement : Statement) : String
   def compileExpression(expression : Expression) : String

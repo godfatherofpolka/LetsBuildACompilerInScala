@@ -17,7 +17,7 @@ object Main {
     }
     val program = ProgramParser.parse(programCode)
     println(TrivialCompiler.compile(program))
-    println(LLVMCompiler.compile(program))
-
+    println(JVMCompiler.compile(program))
+    println(NASMCompiler.compile(program))
   }
 }

@@ -1,11 +1,10 @@
+// TODO : very unfinished...
 object JVMCompiler extends Compiler {
   var lineNumber = 0
   var index = 0
   val localIndex = scala.collection.mutable.Map[String,String]()
 
-  override def programHeader = ""
-
-  override def programFooter = ""
+  def compileProgram(block : Block) = ""
 
   def compileBlock(statements : List[Statement]) = {
     val compiledBlock = for(statement <- statements) 
