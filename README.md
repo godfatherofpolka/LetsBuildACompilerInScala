@@ -5,6 +5,8 @@ Detailled version to follow....
 For now:
 This is an attempt at adapting [Let's Build A Compiler (in Haskell)](https://github.com/alephnullplex/cradle/tree/master/src/Cradle) to Scala. The former is in turn based on [Let's Build A Compiler](http://compilers.iecc.com/crenshaw/).
 
+Note: This work is very incomplete so far, and I'm not sure when I will have time to pick it up again to complete. But feel free to do whatever you feel like with it!
+
 See also
 
 1. http://alephnullplex.appspot.com/blog/view/2010/01/12/lbach-1-introduction
